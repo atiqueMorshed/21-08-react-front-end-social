@@ -22,7 +22,7 @@ const Navbar = () => {
   }, [menuSearchIconClicked]);
   const classes = useStyles({ menuSearchIconClicked });
   return (
-    <AppBar>
+    <AppBar position="static">
       <Toolbar className={classes.toolbar}>
         <Typography className={classes.logoSM} variant="h6">
           ReactSocial
