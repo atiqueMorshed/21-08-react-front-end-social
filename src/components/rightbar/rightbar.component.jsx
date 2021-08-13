@@ -1,4 +1,4 @@
-import { Container, Typography, makeStyles } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 
 import useStyles from "./rightbar.styles";
 

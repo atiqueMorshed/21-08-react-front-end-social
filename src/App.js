@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/navbar.component";
 import Leftbar from "./components/leftbar/leftbar.component";
 import Rightbar from "./components/rightbar/rightbar.component";
 import Feed from "./components/feed/feed.component";
+import AddPost from "./components/add-post/add-post.component";
 
 import useStyles from "./app.styles.js";
 
@@ -25,6 +26,7 @@ const App = () => {
           <Rightbar />
         </Grid>
       </Grid>
+      <AddPost />
     </div>
   );
 };
